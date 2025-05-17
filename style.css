@@ -7,6 +7,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     text-align: center;
+    flex-direction: column;
+}
+p {
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 3px solid rgba(212, 118, 9, 0);
+    margin: 25px;
 }
